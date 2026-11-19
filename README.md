@@ -1,6 +1,12 @@
 # 🌸 Sahakari AI (சககாரி / సహಕಾರಿ)
 ### *Voice-First SHG Order Management, Multi-Factor Scheduling & Transparent Micro-Payroll*
 
+[![CI Pipeline](https://github.com/AkshayaSrelekaPS/Sahakari-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/AkshayaSrelekaPS/Sahakari-AI/actions/workflows/ci.yml)
+[![Python 3.10 | 3.11](https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue.svg)](https://www.python.org/)
+[![Docker Ready](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker&logoColor=white)](#-9-quick-start)
+[![Tests: 17 Passed](https://img.shields.io/badge/Tests-17%20Passed-success.svg)](tests/test_sahakari.py)
+[![Theme: Premium Dark](https://img.shields.io/badge/Theme-Premium%20Dark-0b0f19.svg)](dashboard/.streamlit/config.toml)
+
 > **Event:** Tech4Bharat 2026 — Global Accelerators Vision Summit (GAVS)  
 > **Challenge:** The JanAI Mass Entrepreneurship Challenge  
 > **Organizers:** Karnataka Arya Vysya Mahasabha (KAVMS) in collaboration with RV College of Engineering (RVCE) & JanAI  
@@ -200,10 +206,22 @@ python -m unittest tests/test_sahakari.py
 
 ## 🚀 9. Quick Start
 
-```powershell
-# 1. Run the Streamlit Application
-streamlit run app.py
+### Option A: 1-Command Run with Docker (Recommended)
 
-# 2. Run the Comprehensive Test Suite
-python -m unittest tests/test_sahakari.py
+```bash
+docker compose up -d
+# Open http://localhost:8501 in your browser
+```
+
+### Option B: Local Python Environment
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Launch the Streamlit Dashboard
+streamlit run dashboard/app.py
+
+# 3. Run the Comprehensive 17-Gate Test Suite
+python3 tests/test_sahakari.py
 ```

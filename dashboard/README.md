@@ -28,3 +28,4 @@ streamlit run dashboard/app.py
 * **`.streamlit/config.toml`**: Native Streamlit dark theme configuration with obsidian background (`#0b0f19`) and electric indigo accents (`#6366f1`).
 * **`requirements.txt`**: Minimal production dependencies needed to run the dashboard.
 * **`Sample shirt.png`**: Standard garment reference visual.
+
