@@ -78,6 +78,20 @@ Rather than building 10 superficial features, **Sahakari AI** builds **three dee
 
 ---
 
+## 📸 2.5 Interactive Dashboard Visual Tour
+
+Explore the complete high-resolution interface gallery with granular technical walkthroughs in [`dashboard_screenshots/`](dashboard_screenshots/README.md).
+
+| Interface Screen | Preview | Core Operational Capability & Caption |
+| :--- | :---: | :--- |
+| **1. Gateway Authentication** | <img src="dashboard_screenshots/01_gateway_login.png" width="340" alt="Gateway Authentication"> | **Multilingual & Dual-Role Access:** Native selection across English, தமிழ், ಕನ್ನಡ, and हिन्दी with role separation between Cluster Leader Desk and Artisan Member View. |
+| **2. Leader Production Pipeline** | <img src="dashboard_screenshots/02_leader_production_pipeline.jpg" width="340" alt="Leader Production Pipeline"> | **3-Stage Conserved Pipeline & Fair Allocation:** Morning roll-call calibration, 12-member machine capacity weighting, and mathematical proof of **Jain's Fairness Index ($J = 0.9997$)**. |
+| **3. Assistive CV Quality Desk** | <img src="dashboard_screenshots/03_assistive_cv_quality_desk.jpg" width="340" alt="CV Quality Desk"> | **Assistive Vision Pre-Screening:** Real school uniform shirt screening via OpenCV Laplacian blur ($354.1 > 55.0$ PASS) and Hough seam linearity with 100% human leader decision authority. |
+| **4. Artisan Work Submission** | <img src="dashboard_screenshots/04_artisan_work_target_and_submission.jpg" width="340" alt="Artisan Work Submission"> | **Daily Target Card & Offline Queuing:** Low-literacy daily target display (25 units @ ₹8.5/set) and 1-tap submission with IndexedDB outbox queueing for rural dead-zones. |
+| **5. Vernacular Audio Passbook** | <img src="dashboard_screenshots/05_artisan_audio_passbook_and_quorum_vote.jpg" width="340" alt="Audio Passbook and Quorum Vote"> | **Spoken Earnings & 66% Democratic Quorum:** Native speech synthesis of gross, deductions, and net payable, coupled with cryptographic member voting on group payroll disbursements. |
+
+---
+
 ## 🔬 3. Technical Defensibility: Full Mathematical Proofs
 
 ### A. Full 12-Member Capacity & Allocation Table (Demand: 500 Sets, 10 Days)

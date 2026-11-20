@@ -29,3 +29,7 @@ streamlit run dashboard/app.py
 * **`requirements.txt`**: Minimal production dependencies needed to run the dashboard.
 * **`Sample shirt.png`**: Standard garment reference visual.
 
+## 📸 Interface Screenshots & Gallery
+
+Detailed screenshots with annotated feature breakdowns are available in [`../dashboard_screenshots/`](../dashboard_screenshots/README.md).
+
