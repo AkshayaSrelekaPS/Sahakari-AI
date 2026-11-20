@@ -30,6 +30,12 @@ In rural and semi-urban India, over **1.2 Crore Women’s Self-Help Groups (SHGs
 
 Rather than building 10 superficial features, **Sahakari AI** builds **three deeply functional, defense-proof capabilities** supported by assistive vision and an auditable traceability dossier:
 
+<p align="center">
+  <img src="system_architecture/system_architecture.png" alt="Sahakari AI — System Architecture" width="100%">
+</p>
+
+> 📖 **Full System Architecture Specification:** See [`system_architecture/README.md`](system_architecture/README.md) for detailed documentation of the 6 architectural tiers (UI, Offline-First Engine, Backend, Data/Proof Layer, Outputs, and Tests/CI).
+
 ```
                                   SAHAKARI AI ARCHITECTURE
   ┌────────────────────────────────────────────────────────────────────────────────────────┐
