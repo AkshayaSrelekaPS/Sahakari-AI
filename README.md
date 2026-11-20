@@ -59,8 +59,8 @@ Rather than building 10 superficial features, **Sahakari AI** builds **three dee
   explicit source tags  accounting for machines       uniform shirt specs    • Enforces group-agreed
 • 70 mins labor @       and available hours          • Catches blur & gross    bylaws & recovery
   rural wage benchmark• Proves Jain's Fairness         placket seam asymmetry • Generates authentic
-• Reserves 12% group    Index: J = 0.9997            • Explicitly reserves     Tamil Audio Passbook
-  emergency savings   • Single-Failure Tolerance       final authority for     (தமிழ் குரல் பாஸ்புக்)
+• Reserves 12% group    Index: J = 0.9997            • Explicitly reserves     Kannada Audio Passbook
+  emergency savings   • Single-Failure Tolerance       final authority for     (ಕನ್ನಡ ಧ್ವನಿ ಪಾಸ್‌ಬುಕ್)
   corpus in bank        rebalance constraint solver    the SHG Leader          via Web Speech API
     │                       │                                 │                       │
     └───────────────────────┴────────────────┬────────────────┴───────────────────────┘
@@ -72,7 +72,7 @@ Rather than building 10 superficial features, **Sahakari AI** builds **three dee
                                              ▼
                              SIMULATED INSTANT SETTLEMENT
                      • Simulated UPI batch transfers to individual bank accounts
-                     • Audio & SMS confirmation in Tamil to each member
+                     • Audio & SMS confirmation in Kannada to each member
                      • Production Traceability & Fair Wage Audit Dossier export
 ```
 
@@ -143,11 +143,11 @@ Every figure in the costing engine is explicitly tagged with its empirical basis
 
 ---
 
-## 🔊 5. Authentic Tamil Audio Passbook (தமிழ் குரல் பாஸ்புக்)
+## 🔊 5. Authentic Kannada Audio Passbook (ಕನ್ನಡ ಧ್ವನಿ ಪಾಸ್‌ಬುಕ್)
 
-In Tab 4 of `app.py`, tapping the audio button executes browser-native Web Speech Synthesis (`ta-IN`) with zero network latency:
+In Tab 4 of `app.py`, tapping the audio button executes browser-native Web Speech Synthesis (`kn-IN`) with zero network latency:
 
-> **"வணக்கம் லட்சுமி தேவி ஆர். நீங்கள் 18 பள்ளி சீருடைகளை வெற்றிகரமாக தைத்து முடித்துள்ளீர்கள். ஒரு சீருடைக்கு ₹55 வீதம் உங்கள் மொத்த வருமானம் ₹990. முன்பணம் கழிவு ₹200. உங்கள் வங்கிக் கணக்கில் வரவு வைக்கப்படும் நிகர தொகை ₹790."**
+> **"ನಮಸ್ಕಾರ ಲಕ್ಷ್ಮೀ ದೇವಿ ಆರ್. ಅವರೇ. ನೀವು 18 ಶಾಲಾ ಸಮವಸ್ತ್ರಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಹೊಲಿದು ಮುಗಿಸಿದ್ದೀರಿ. ಪ್ರತಿ ಸಮವಸ್ತ್ರಕ್ಕೆ ₹55 ರಂತೆ ನಿಮ್ಮ ಒಟ್ಟು ಆದಾಯ ₹990. ಮುಂಗಡ ಕಡಿತ ₹200. ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆಗೆ ಜಮೆಯಾಗಲಿರುವ ನಿವ್ವಳ ಮೊತ್ತ ₹790."**
 
 *Zero literacy barrier: Rural women can verify their earnings on budget Android devices without reading a single word.*
 
@@ -168,7 +168,7 @@ In Tab 4 of `app.py`, tapping the audio button executes browser-native Web Speec
 
 | Jury Question | Sahakari AI Proof |
 | :--- | :--- |
-| **1. Why is this better than Excel or WhatsApp?** | Excel cannot parse Tamil voice inputs, cannot calculate machine capacity weights, and cannot auto-rebalance tasks when an artisan's child falls ill. WhatsApp lacks a transparent piece-rate ledger or audio passbook. |
+| **1. Why is this better than Excel or WhatsApp?** | Excel cannot parse Kannada or vernacular voice inputs, cannot calculate machine capacity weights, and cannot auto-rebalance tasks when an artisan's child falls ill. WhatsApp lacks a transparent piece-rate ledger or audio passbook. |
 | **2. How do you ensure fair work distribution?** | Measured scientifically via **Jain's Fairness Index ($J = 0.9997$)**, accounting for machine types, caregiving hours, and historical defect rates. |
 | **3. What if a member cannot complete her work?** | On Day 4, the Rebalancing Agent detects lag and executes a bottleneck-safe transfer to helpers with verified spare capacity buffers ($B_j = 58.2 \to 51.2$). |
 | **4. How do you calculate payment?** | An itemized unit economics formula: Certified drill fabric + 7% cutting buffer + fair labor hours (70 mins/set) + group emergency fund. |
